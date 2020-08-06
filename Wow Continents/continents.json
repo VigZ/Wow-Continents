@@ -1,0 +1,19 @@
+{"continents": [
+    {"name": "Eastern Kingdoms",
+    "capitalCities": {"horde": ["Under City", "Silvermoon City"],
+                "alliance": ["Stormwind City", "Ironforge", "Shadowforge City", "Aerie Peak"],
+                "neutral": ["Booty Bay", "Zul'Gurub", "Blackrock Spire", "Gnomeregan", "Hearthglen","Zul'Aman"]},
+    "dungeons": ["The Deadmines", "The Stockade", "Sunken Temple", "Zul'Gurub", "Blackrock Depths", "Lower Blackrock Spire", "Molten Core", "Blackwing Lair", "Blackrock Caverns", "Blackwing Descent", "Upper Blackrock Spire", "Karazhan", "Return to Karazhan", "Gnomeregan", "Uldaman", "Grim Batol", "Bastion of Twilight", "Shadowfang Keep", "Baradin Hold", "Scholomance", "Scarlet Halls", "Scarlet Monastery", "Stratholme Main Gate", "Stratholme Service Entrance", "Zul'Aman", "Magister's Terrace", "Sunwell Plateau", "Throne of the Tides"],
+    "battlegrounds": ["Alterac Valley", "Arathi Basin", "Battle for Gilneas", "Twin Peaks", "Silvershard Mines"],
+    "arenas": ["Gurubashi Arena", "Ruins of Lordaeron Arena"]
+    },
+    {"name": "Kalimdor",
+    "capitalCities": {"horde": ["Orgrimmar", "Thunder Bluff", "Bilgewater Harbor", "Darkspear Isle"],
+                "alliance": ["Darnassus", "Exodar"],
+                "neutral": ["Timbermaw Hold", "Gadgetzan", "Zul'Farrak", "Caverns of Time", "Ramkahen"]},
+    "dungeons": ["Firelands", "Blackfathom Deeps", "Wailing Caverns", "Maraudon", "Onyxia's Lair", "Ragefire Chasm", "Razorfen Kraul", "Dire Maul", "Zul'Farrak", "Lost City of the Tol'vir", "Halls of Origination", "Razorfen Downs", "Ruins of Ahn'Qiraj", "Temple of Ahn'Qiraj", "Vortex Pinnacle", "Throne of the Four Winds", "Escape from Durnholde Keep", "Opening the Dark Portal", "Battle for Mount Hyjal", "Culling of Stratholme", "End Time", "Well of Eternity", "Hour of Twilight", "Dragon Soul"],
+    "battlegrounds": ["Warsong Gulch"],
+    "arenas": ["Ring of Valor", "Tol'Viron Arena"]
+    },
+]}
+

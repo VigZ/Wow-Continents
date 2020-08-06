@@ -13,6 +13,10 @@
 		8048E11A24DB8AAD00F308DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8048E11824DB8AAD00F308DC /* Main.storyboard */; };
 		8048E11C24DB8AB000F308DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8048E11B24DB8AB000F308DC /* Assets.xcassets */; };
 		8048E11F24DB8AB000F308DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8048E11D24DB8AB000F308DC /* LaunchScreen.storyboard */; };
+		8048E12924DB8E6600F308DC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048E12824DB8E6600F308DC /* DetailTableViewController.swift */; };
+		8048E13024DC6E8100F308DC /* continents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8048E12F24DC6E8100F308DC /* continents.json */; };
+		8048E13224DC762600F308DC /* Continents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048E13124DC762600F308DC /* Continents.swift */; };
+		8048E13424DC76AF00F308DC /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048E13324DC76AF00F308DC /* Continent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8048E11B24DB8AB000F308DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8048E11E24DB8AB000F308DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8048E12024DB8AB000F308DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8048E12824DB8E6600F308DC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		8048E12F24DC6E8100F308DC /* continents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = continents.json; sourceTree = "<group>"; usesTabs = 0; };
+		8048E13124DC762600F308DC /* Continents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continents.swift; sourceTree = "<group>"; };
+		8048E13324DC76AF00F308DC /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				8048E11424DB8AAD00F308DC /* SceneDelegate.swift */,
 				8048E11624DB8AAD00F308DC /* ViewController.swift */,
 				8048E11824DB8AAD00F308DC /* Main.storyboard */,
+				8048E12824DB8E6600F308DC /* DetailTableViewController.swift */,
 				8048E11B24DB8AB000F308DC /* Assets.xcassets */,
 				8048E11D24DB8AB000F308DC /* LaunchScreen.storyboard */,
 				8048E12024DB8AB000F308DC /* Info.plist */,
+				8048E12F24DC6E8100F308DC /* continents.json */,
+				8048E13124DC762600F308DC /* Continents.swift */,
+				8048E13324DC76AF00F308DC /* Continent.swift */,
 			);
 			path = "Wow Continents";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8048E13024DC6E8100F308DC /* continents.json in Resources */,
 				8048E11F24DB8AB000F308DC /* LaunchScreen.storyboard in Resources */,
 				8048E11C24DB8AB000F308DC /* Assets.xcassets in Resources */,
 				8048E11A24DB8AAD00F308DC /* Main.storyboard in Resources */,
@@ -138,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8048E13224DC762600F308DC /* Continents.swift in Sources */,
+				8048E12924DB8E6600F308DC /* DetailTableViewController.swift in Sources */,
+				8048E13424DC76AF00F308DC /* Continent.swift in Sources */,
 				8048E11724DB8AAD00F308DC /* ViewController.swift in Sources */,
 				8048E11324DB8AAD00F308DC /* AppDelegate.swift in Sources */,
 				8048E11524DB8AAD00F308DC /* SceneDelegate.swift in Sources */,
